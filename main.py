@@ -1,7 +1,8 @@
 from crociera import Crociera
 
-def menu():
-    print(f'\n--- MENU CROCIERA ---')
+
+def menu(nome_crociera):
+    print(f'\n--- MENU CROCIERA "{nome_crociera}" ---')
     print("1. Modifica nome della crociera")
     print("2. Carica dati da file")
     print("3. Assegna cabina a passeggero")
@@ -15,11 +16,12 @@ def main():
     crociera = Crociera("MSC Futura")
 
     while True:
-        scelta = menu()
+        scelta = menu(crociera.nome) # getter
 
         if scelta == "1":
             nuovo_nome = input("Inserisci il nuovo nome della crociera: ")
-            # TODO: Aggiorna il nome della crociera
+            crociera.nome = nuovo_nome # setter
+            print(f"Nome modificato in: {crociera.nome}")
 
         elif scelta == "2":
             file_path = "dati_crociera.csv"
