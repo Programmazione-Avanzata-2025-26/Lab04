@@ -1,4 +1,4 @@
-# Lab 04
+# Lab 04 - Soluzione
 
 #### Argomenti
 
@@ -127,4 +127,5 @@ passeggero è associato.
 > ```
 > Infine, implementare i metodi dunder `__eq__()` e/o `__lt__()` all’interno di una classe 
 > quando è necessario definire la logica di uguaglianza (==) e/o di confronto 
+
 > ordinato (<) tra istanze della classe.
