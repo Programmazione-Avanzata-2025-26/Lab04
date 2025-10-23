@@ -1,4 +1,4 @@
-# Lab 04 - Soluzione
+# Lab 04
 
 #### Argomenti
 
@@ -129,3 +129,4 @@ passeggero è associato.
 > quando è necessario definire la logica di uguaglianza (==) e/o di confronto 
 
 > ordinato (<) tra istanze della classe.
+
